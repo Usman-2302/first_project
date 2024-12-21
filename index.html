@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name" list="option">
+            <datalist id="option">
+                <option value="Mianwali"></option>
+                <option value="bhakkar"></option>
+                <option value="lahore"></option>
+                <option value="multan"></option>
+                <option value="karachi"></option>
+            </datalist>
+
+            <button><img src="img/search.png" alt="search"></button>
+        </div>
+        <div class="error">
+            <p>Invalid city name</p>
+        </div>
+
+        <div class="weather" id="weather">
+            <div class="left">
+                <img src="img/cloud.png" class="weather-icon">
+                <p class="description">clouds</p>
+                <h1 class="temp">22°c</h1>
+                <h2 class="city">New York <span></span> <h3 id="country">country</h3></span></h2>
+            </div>
+
+            <div class="right">
+                <div class="details">
+                    <div class="col">
+                        <img src="img/humidity.png" alt="">
+                        <div>
+                            <p class="humidity">50%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="img/wind.png" alt="">
+                        <div>
+                            <p class="wind">20 km/h</p>
+                            <p>Wind speed</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="img/celsius.png" alt="temp">
+                        <div>
+                            
+                            <p class="tempminmax"></p>
+                            <p>Temp min/max</p>
+    
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="img/sunrise.png" alt="sunrise">
+                        <div>
+                            
+                            <p class="sunrise"></p>
+                            <p>Sunrise</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="img/sunset.png" alt="sunset">
+                        <div>
+                           
+                            <p class="sunset"></p>
+                            <p>Sunset</p>
+    
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="img/pressure.png" alt="pressure">
+                        <div>
+                          
+                            <p class="pressure"></p>
+                            <p>Pressure</p>
+    
+                        </div>
+                    </div>
+    
+    
+                </div>
+    
+            </div>
+
+            
+        </div>
+    </div>
+
+</body>
+
+</html>
